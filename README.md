@@ -53,6 +53,12 @@ flintrock stop test-cluster
 flintrock destroy test-cluster
 ```
 
+## Restarting the cluster
+```
+flintrock start test-cluster \
+  --ec2-identity-file ~/.ssh/coursera-spark.pem \
+  --ec2-user ec2-user
+```
 ----
 
 ## 5. Up and running
